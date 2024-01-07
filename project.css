@@ -1,0 +1,45 @@
+#projects .headings{
+    font-size: 35px;
+    padding-bottom: 20px;
+  
+}
+
+#projects{
+    /* display: none; */
+    /* display: flex; */
+    flex-direction: column;
+    padding: 10px;
+ 
+}
+
+.css_proj .content{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    grid-gap: 20px;
+}
+
+
+.css_proj .content .box{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 558px) {
+    .css_proj .content{
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(150px , 1fr));
+        grid-gap: 15px;
+    }
+    
+    
+    .css_proj .content .box{
+        width: 150px;
+        height:150px;
+        background-color: #fff;
+    }
+    
+
+}

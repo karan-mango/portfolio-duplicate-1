@@ -1,0 +1,165 @@
+*{
+    /* CSS Reset */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    /* Set Display and Flexbox */
+    font-family: sans-serif;
+    text-transform: capitalize;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+.menu .menu_items ul li a{
+   
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu .menu_items ul li a:hover{
+    
+    background-color: #00ffaa;;
+}
+
+
+
+
+nav{
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position:fixed;
+    width: 100%;
+    z-index:1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.logo{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu_items ul{
+    display: flex;
+    
+
+}
+
+.menu_items ul li{
+   
+    padding: 15px;
+    margin: 5px;
+   
+
+}
+
+.active{
+    padding: 10px;
+   
+    border-radius: 5px;
+   background-color: #00ffaa;
+   
+}
+.active a{
+    color: white;
+}
+
+.blank{
+    height: 80px;
+    /* nothing here just for making the home come down */
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    
+
+.menu .menu_items ul li a{
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu .menu_items ul li a:hover{
+    
+    background-color: #00ffaa;;
+}
+
+
+
+
+nav{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    position:fixed;
+    width: 100%;
+    z-index:1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.logo{
+    display: flex;
+    scale: .8;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu_items ul{
+    display: flex;
+    
+
+}
+
+.menu_items ul li{
+   
+    padding: 15px;
+    margin: 5px;
+   
+
+}
+
+.active{
+    padding: 10px;
+   
+    border-radius: 5px;
+   background-color: #00ffaa;
+   
+}
+.active a{
+    color: white;
+}
+
+.blank{
+    height: 80px;
+    /* nothing here just for making the home come down */
+}
+
+
+
+}
